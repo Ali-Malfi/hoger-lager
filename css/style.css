@@ -1,0 +1,99 @@
+
+@font-face {
+    font-family: FasterOne;
+    src: url(/font/FasterOne-Regular.ttf);
+    font-weight: bold;
+  }
+  h1{
+    background-attachment: black;
+    font-family: FasterOne;
+    text-align: center;
+    font-size: 70px;
+}
+
+* {
+    margin: 0;
+}
+ 
+body{
+   background-color: rgb(1, 201, 252); 
+}
+.main {
+    width: 800px;
+    height: 200px;
+    margin: 0 auto;
+   
+}
+
+.back > button{
+    margin: 20px;
+    background-color: yellow;
+}
+
+#buttonContainer{
+    
+    padding: 10px;
+    width: 200px;
+    margin: auto;
+    /* margin-top: 150px; */
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    background-color: red;
+    padding: 5px;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+#wrapper{
+    float: left;
+    
+}
+#sidebar{
+  float: right;
+  
+}
+
+.welcomeButton{
+    margin-left: 45%;
+    margin-top: 30px;
+    float: left;
+
+}
+#welcomeWrapper{
+    margin-top: 200px ;
+}
+
+#scoreBtn {
+    margin-top: 20px;
+}
+   
+
+.right-button {
+    width: 100%;
+    padding-left: 100px;
+    float: left;
+}
+.left-button {
+    width: 100%;
+    padding-left: 100px;
+    float: left;
+  
+}
+.Lager{
+    background-color: rgb(234, 47, 255);
+}
+.Hoger {
+    background-color: rgb(234, 47, 255);
+}
+#uitleg{
+    margin-top: 10px;
+}
+p {
+    padding: 20px;
+}
+h2 {padding: 20px;}

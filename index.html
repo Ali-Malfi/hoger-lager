@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hoger lager</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <h1>Hoger Lager</h1>
+    <a href="./WelcomeScreen.html" class="back">
+        <button><b>terug</b></button>
+    </a>
+    <div class="main">
+
+        <div id="buttonContainer">
+            <button id="clickMeBtn" onclick="startGame()">click me!</button>
+            <button id="scoreBtn" onclick="showScoreboard()"> scoreboard </button>
+        </div>
+
+        <div id="sidebar">
+            <div class="right-dice">
+                <img src="./image/1.png" id="1">
+                <img src="./image/1.png" id="2">
+            </div>
+            <div class="right-button">
+                <button class="Hoger" id="higher" onclick="hoger()">Hoger</button>
+            </div>
+
+        </div>
+        <div id="wrapper">
+            <div class="left-dice">
+                <img src="./image/1.png" id="3">
+                <img src="./image/1.png" alt="4de dobbelsteen" id="4">
+            </div>
+            <div class="left-button">
+                <button class="Lager" id="lower" onclick="lager()">Lager</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
